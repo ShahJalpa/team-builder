@@ -13,6 +13,7 @@ const initialFormDetails = {
 }
 
 function App() {
+  //STEP 1
   // Give the state variable you just declared a default value.
   const [teamMembers, setTeamMember] = useState([]); 
 
@@ -33,6 +34,8 @@ function App() {
       memberRole: formDetails.memberRole.trim(),
     }
   }
+
+  //STEP 2
   return(
     <div className="App">
       <h1>Team Member App</h1>

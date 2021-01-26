@@ -51,6 +51,9 @@ export default function Form(props){
                         </select>
                     }
                 </label>
+                <div className="submit">
+                    <button>submit</button>
+                </div>
             </div>
         </form>
     )
