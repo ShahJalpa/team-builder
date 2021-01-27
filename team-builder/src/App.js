@@ -29,9 +29,9 @@ function App() {
 
   const submitForm = () => {
     const newTeamMember = {
-      memberName: formDetails.memberName,
-      memberEmail: formDetails.memberEmail,
-      memberRole: formDetails.memberRole,
+      memberName: formDetails.memberName.trim(),
+      memberEmail: formDetails.memberEmail.trim(),
+      memberRole: formDetails.memberRole.trim(),
     };
 
     if (!newTeamMember.memberName || !newTeamMember.memberEmail || !newTeamMember.memberRole)
