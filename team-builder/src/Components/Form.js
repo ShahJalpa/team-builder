@@ -44,10 +44,10 @@ export default function Form(props){
                     {
                         <select name="role" value={details.role} onChange={onChange}>
                             <option value="">---Select Your Role---</option>
-                            <option value="">Backend Engineer</option>
-                            <option value="">Frontend Engineer</option>
-                            <option value="">Designer</option>
-                            <option value="">Scrum Master</option>
+                            <option value="bee">Backend Engineer</option>
+                            <option value="fee">Frontend Engineer</option>
+                            <option value="designer">Designer</option>
+                            <option value="sm">Scrum Master</option>
                         </select>
                     }
                 </label>
